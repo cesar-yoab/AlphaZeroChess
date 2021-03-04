@@ -1,0 +1,4 @@
+*.zip
+libtorch/
+cmake-build-debug/
+.idea/
