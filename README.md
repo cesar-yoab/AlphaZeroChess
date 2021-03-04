@@ -23,4 +23,4 @@ If you are training on a GPU then you also need:
 
 This code was developed on Ubuntu and should work with a few minor changes on 
 other linux distributions and OS X, significant changes are required 
-to use this code on a Windows machine.
+to use this code on a Windows machine however.
