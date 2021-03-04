@@ -8,3 +8,19 @@ data through self-play using monte carlo tree search (MCTS) with an evaluator th
 a neural network, a learner that updates the network based on those games, and evaluators
 playing vs standard MCTS to gauge process. Both write checkpoints and logs that can be 
 analyzed programmatically.
+
+## Pre-requisites
+To run the code in this repository you need to have: 
+
+* C++ 14 compiler (eg. gcc)
+* Libtorch
+* open_spiel
+
+If you are training on a GPU then you also need:
+
+* CUDA Toolkit
+* cuDNN (You need a developer account to get the drivers)
+
+This code was developed on Ubuntu and should work with a few minor changes on 
+other linux distributions and OS X, significant changes are required 
+to use this code on a Windows machine.
